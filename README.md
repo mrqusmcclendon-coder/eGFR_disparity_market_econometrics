@@ -1,8 +1,7 @@
 # Kidney Transplant Disparities Dashboard
 
 ## Problem
-Black patients experience longer waitlist delays…
-
+“Algorithmic Equity Simulation”
 
 ![eGFR Disparity](images/eGFR_disparity.png)
 
@@ -10,6 +9,8 @@ Black patients experience longer waitlist delays…
 - UNOS 2009–2024
 - State: Michigan
 - Regions: Ann Arbor, Detroit Metro…
+
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mi>W</mi><mo>=</mo><munder><mo>∑</mo><mi>i</mi></munder><mo stretchy="false">[</mo><msub><mi>U</mi><mi>i</mi></msub><mo stretchy="false">(</mo><mtext>Access</mtext><mo stretchy="false">)</mo><mo>−</mo><msub><mi>τ</mi><mi>i</mi></msub><mo stretchy="false">(</mo><mtext>Bias</mtext><mo stretchy="false">)</mo><mo stretchy="false">]</mo></mrow><annotation encoding="application/x-tex">W = \sum_i [U_i(\text{Access}) - τ_i(\text{Bias})]</annotation></semantics></math>
 
 ![eGFR Disparity](images/1.png)
 
