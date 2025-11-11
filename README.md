@@ -4,7 +4,7 @@
 Black patients experience longer waitlist delays…
 
 
- This slide contains the following visuals: areaChart ,qnaVisual ,qnaVisual ,tableEx. Please refer to the notes on this slide for details
+![eGFR Disparity](images/eGFR_disparity.png)
 
 ## Data sources
 - UNOS 2009–2024
