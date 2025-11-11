@@ -11,10 +11,11 @@ Black patients experience longer waitlist delays…
 - State: Michigan
 - Regions: Ann Arbor, Detroit Metro…
 
- This slide contains the following visuals: tableEx ,card ,qnaVisual. Please refer to the notes on this slide for details
-
+![eGFR Disparity](images/1.png)
 
 ## Metrics
+![eGFR Disparity](images/2.png)
+
 - Waitlist Delay (Months)
 - Eligible Transplant (2009)
 - eGFR 2021 Race-Free
