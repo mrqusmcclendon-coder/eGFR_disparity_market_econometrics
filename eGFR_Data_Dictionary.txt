@@ -1,0 +1,55 @@
+
+📖 DATA DICTIONARY
+
+IDENTIFIERS & TIME
+- Date: Month-start date
+- Year, Month, Quarter: Time dimensions
+- Site_ID: Unique site identifier
+- Lab_ID: Parent laboratory identifier
+- Region: Geographic region (Northeast, Southeast, Midwest, West, Southwest)
+- Site_Type: Hospital, Clinic, or Reference Lab
+
+ADOPTION METRICS
+- Adoption_Date: Date lab adopted CKD-EPI 2021 (NULL if not adopted)
+- Post_Adoption: Binary indicator (1 = adopted, 0 = not adopted)
+- Months_Since_Adoption: Months elapsed since adoption
+- Assay_Menu: Test menu (Cr, Cys, CrCys)
+- Communication_Intensity: Stakeholder communication score (1-5)
+
+TEST VOLUMES
+- Cr_Volume: Creatinine test count
+- Cys_Volume: Cystatin C test count
+- CrCys_Volume: Combined Cr+Cys test count
+- Total_Test_Volume: Sum of all tests
+
+PRICING & REVENUE
+- Cr_Price, Cys_Price, CrCys_Price: Average selling price per test
+- Cr_Revenue, Cys_Revenue, CrCys_Revenue: Revenue by test type
+- Total_Revenue: Total diagnostic revenue
+
+PATIENT IMPACT
+- Lives_Covered: Population served by site
+- Total_Patients: Patients tested for renal function
+- Reclassified_Patients: Patients changing CKD stage
+- Reclassification_Rate: % reclassified (benchmark: 10-28%)
+
+CKD STAGING
+- CKD_Patients: Total with CKD (G3a-G5)
+- G1_Patients through G5_Patients: Count by KDIGO stage
+- CKD_Prevalence: % of patients with CKD
+
+CLINICAL OUTCOMES
+- Nephrology_Referrals: Specialty referrals
+- Dialysis_Initiations: Patients starting dialysis
+- Trial_Enrollment: Clinical trial enrollments
+- Eligibility_Shift_Pct: Trial eligibility change due to equation
+
+THERAPEUTICS
+- Renally_Adjusted_Rx: Patients on dose-adjusted medications
+- Nephroprotective_Rx: Patients on kidney-protective drugs (SGLT2i, RAAS blockers)
+
+EVIDENCE ANCHORS
+- Reclassification rates calibrated to: Roy et al. (10-28%), Chen & Shi (11.86%), Escribano-Serrano et al. (15%)
+- Cystatin C growth linked to: Lee et al. outcome prediction improvements
+- Adoption timing: Miller et al. NKF guidance (2022)
+- Trial impacts: Tarzi et al. eligibility considerations
